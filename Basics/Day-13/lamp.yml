@@ -1,0 +1,13 @@
+- name: Install packages
+  gather_facts: false
+  hosts: all
+  become: yes
+  tasks:
+    - name: Packed installing
+      package: 
+        name: 
+          - python3-libselinux
+          - python3-libsemanage
+          - firewalld
+        state: installed
+

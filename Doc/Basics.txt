@@ -144,3 +144,16 @@ Variable Precedence:
 Conditional statements:
 	When you want to install same same software on two different Operating Systems, you don't have to 
 	create two playbooks, use conditional statemets with in a single playbook. 
+
+Handle Errors:
+	rescue
+	always
+	any_errors_fatal: True
+	ignore_errors: true
+
+Parellelism processing:
+	startegy types - free
+	serial - 3 (Ansible will run on 3 servers at a time)
+
+
+
