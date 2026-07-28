@@ -1,0 +1,6 @@
+- name: Testing tag in Ansible
+  hosts: local
+  gather_facts: false
+  tasks:
+    - name: Print the message
+      debug: "This is the "
