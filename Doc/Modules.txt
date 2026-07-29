@@ -1,6 +1,7 @@
 Package Manager:
     Package manager varies on different os, like yum, apt, dnf.
     Ansible uses a "package" module, no need to specify it while installing any software on host. 
+    It will fetch required configuration during the software installation. 
 
 Service:
     It is used to manage service, to start, stop or re-start a service. 
